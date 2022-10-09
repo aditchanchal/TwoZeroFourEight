@@ -1,4 +1,4 @@
-Contribution Guidlines
+## Contribution Guidlines
 
 1. Find a bug/improvement in the code or pick one from the open issues.
 2. Raise a PR with your fixes.
