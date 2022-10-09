@@ -6,7 +6,7 @@ import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
 import math
 
 # Tile Images
-TILE_SIZE = 100
+TILE_SIZE = 101
 HALF_TILE_SIZE = TILE_SIZE / 2
 BORDER_SIZE = 45
 
@@ -95,7 +95,7 @@ class GUI:
             text_pos = 55
             canvas.draw_text("2048 - HOW TO PLAY?", (20, 25), 23, "White")
             for line in INSTRUCTION_TEXT:
-                canvas.draw_text((line), (10, text_pos), 20, "White")
+                canvas.draw_text("2048 - HOW TO PLAY?", (20, 25), 23, "White")
                 text_pos += 23
         else:
             for row in range(self._rows):
