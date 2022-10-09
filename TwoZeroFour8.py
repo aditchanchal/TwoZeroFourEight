@@ -108,7 +108,7 @@ class TwentyFortyEight:
         initial_tiles = self._initial_tiles_dict.get(direction)
         offset = OFFSETS[direction]
         if direction == UP or direction == DOWN:
-            size = self._grid_width
+            size = self._grid_height
         elif direction == LEFT or direction == RIGHT:
             size = self._grid_width
         for tile_index in initial_tiles: 
