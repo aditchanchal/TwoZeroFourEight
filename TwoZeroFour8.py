@@ -159,4 +159,4 @@ class TwentyFortyEight:
         return self._grid[row][col]
 
 
-GUI_2048.run_gui(TwentyForteight(4, 4))
+GUI_2048.run_gui(TwentyFortyEight(4, 4))
