@@ -1,7 +1,7 @@
 """
 2048 GUI
 """
-
+'''
 import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
 import math
 
@@ -18,7 +18,7 @@ RIGHT = 4
 
 # Image URL
 URL = "https://img.favpng.com/21/25/19/graph-of-a-function-geometric-shape-chart-geometry-square-png-favpng-R5XEtvA9dNL3s1wQK5GHxwKY2.jpg"
-
+'''
 # Instructions
 INSTRUCTION_TEXT = \
 ["2048 is a simple grid-based numbers game.", \
@@ -80,11 +80,11 @@ class GUI:
         """
         Show / Hide Game instructon
         """
-        if self._draw_instruction == False:
-            self._draw_instruction = True
+        if self._draw_instruction == True:
+            self._draw_instruction = False
             self._button.set_text("Back to Game")
         else:
-            self._draw_instruction = False
+            self._draw_instruction = True
             self._button.set_text("How to Play")
 
     def draw(self, canvas):
