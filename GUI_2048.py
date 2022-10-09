@@ -6,7 +6,7 @@ import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
 import math
 
 # Tile Images
-TILE_SIZE = 101
+TILE_SIZE = 100
 HALF_TILE_SIZE = TILE_SIZE / 2
 BORDER_SIZE = 45
 
