@@ -95,7 +95,7 @@ class GUI:
             text_pos = 55
             canvas.draw_text("2048 - HOW TO PLAY?", (20, 25), 23, "White")
             for line in INSTRUCTION_TEXT:
-                canvas.draw_text("2048 - HOW TO PLAY?", (20, 25), 23, "White")
+                canvas.draw_text((line), (10, text_pos), 20, "White")
                 text_pos += 23
         else:
             for row in range(self._rows):
